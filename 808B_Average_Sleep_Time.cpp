@@ -23,7 +23,7 @@ int main() {
 		}
 		if (i>=k) avg+=sum;
 	}
-	avg /= (n-k+1)*k;
+	avg /= (n-k+1);
 	cout << fixed << setprecision(10) << avg << '\n';
 
 	return 0;
