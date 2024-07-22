@@ -9,6 +9,12 @@ int main() {
 	ll t;
 	cin >> t;
 	while(t--) {
+		// useful only when Anna removes zeroes
+		// Sasha can protect zeroes like 1280 and 8 can be 12808 so anna cant remove this
+		// thus sort numbers according to number of zerose
+		// then sasha can protect zeroes at even indicies
+		// finally if no of digits>=m-1 sasha wins
+		
 		ll n,m,dig=0, zeroes=0,x;
 		vector<ll> v;
 		cin >> n >> m;
